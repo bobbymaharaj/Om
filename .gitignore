@@ -1,0 +1,23 @@
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Secrets & local state — NEVER commit
+.env
+*.session
+*.session-journal
+database.json
+
+# Local helpers
+gen_session.py
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
